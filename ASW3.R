@@ -1,6 +1,6 @@
 ## we have two functions, makecahematrix that consists 
 ## of set, get, setinv, getinv and then we have makecachematrix
-## to calculate the inverse for non squared i use the solve function 
+## to calculate the inverse for non squared i use the solve function and the library(mass)
 
 library(MASS)
 makeCacheMatrix <- function(x = matrix()) {
